@@ -5,7 +5,7 @@ function SaveButton() {
     alert("You are saving this pin!");
   }
   return (
-    <button id="saveButton" onClick={handleClick}>
+    <button id="savedButton" onClick={handleClick}>
       Save
     </button>
   );
